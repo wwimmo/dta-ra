@@ -93,11 +93,15 @@ Diese Identifikatoren wären einfacher untereinander auszutauschen. Sollten dies
 
 Personendaten werden von verschiedenen Parteien ausgetauscht. Wie betrifft dies das Datenschutzgesetz?
 
+### Format und Validierung
+
+XML oder JSON? XML kann mittels XSD einfach validiert werden. XML kann auch optimal als Datei ausgetauscht werden.
+
 ## Stand und Feedback
 
 Dieses Format befindet sich noch in Entwicklung und kann noch grösseren Änderungen unterliegen. Feedback ist sehr erwünscht, da es klares Ziel ist, eine möglichst hohe Verbreitung dieses Formats zu erzielen.
 
-Feedback und Fragen sollten bitte als Issue in [GitHub](https://github.com/wwimmo/dta-ra/issues) erfassen.
+Feedback und Fragen bitte als Issue in [GitHub](https://github.com/wwimmo/dta-ra/issues) erfassen.
 
 ## Kontakt
 
