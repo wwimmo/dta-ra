@@ -8,8 +8,8 @@ Dieses Dokument beschreibt ein Format für den Austausch von Informationen zu Sc
 
 Für den Austausch gibt es zwei Typen von Dokumenten mit den gleichen grundlegenden Entitäten.
 
-- [Schadensmeldung](Damagenotification.md)
-- [Reparaturauftrag](Repairorder.md)
+- [Schadensmeldung](damagenotification.md)
+- [Reparaturauftrag](repairorder.md)
 
 Allgemeine Entitäten
 
