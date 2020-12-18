@@ -13,7 +13,7 @@ Die folgende Entität erläutert den Aufbau eines Reparaturauftrags.
 | positions            |                                   | Auftragspositionen                               |    x    |
 |                      |                                   |                                                  |    x    |
 | location             | [Location](/entities/location.md) |                                                  |    x    |
-| damagenotificationid | uuid                              | ID der [Schadensmeldung](Damagenotification.md)  |    -    |
+| damagenotificationid | uuid                              | ID der [Schadensmeldung](damagenotification.md)  |    -    |
 | clientperson         | [Person](/entities/person.md)     |                                                  |    x    |
 | clientpersontype     | integer (enum)                    | [Persontypes](/types/persontypes.md)             |    x    |
 | contactperson        | [Person](/entities/person.md)     |                                                  |    -    |

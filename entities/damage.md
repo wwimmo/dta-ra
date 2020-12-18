@@ -5,12 +5,12 @@ Die folgende Entität wird für die [Schadensmeldung](Damagenotification.md) und
 | Attribut              | Typ            | Beschreibung                                 | Pflicht |
 | --------------------- | -------------- | -------------------------------------------- | :-----: |
 | room                  | string         | Raumbezeichnung                              |    -    |
-| roomtype              | integer (enum) | [Raumtyp](/types/Roomtypes.md)               |    x    |
-| device                | string         | Gerätebezeichnung                            |    -    |
-| devicetype            | integer (enum) | [Gerätetyp](/types/Devicetypes.md)           |    x    |
+| roomtype              | integer (enum) | [Raumtyp](/types/roomtypes.md)               |    x    |
+| appliance             | string         | Gerätebezeichnung                            |    -    |
+| appliancetype         | integer (enum) | [Gerätetyp](/types/appliancetypes.md)        |    x    |
 | model                 | string         | Modell                                       |    -    |
 | manufacturer          | string         | Hersteller                                   |    -    |
-| manufacturertype      | integer (enum) | [Herstellertyp](/types/Manufacturertypes.md) |    -    |
+| manufacturertype      | integer (enum) | [Herstellertyp](/types/manufacturertypes.md) |    -    |
 | serialnumber          | string         | Seriennummer                                 |    -    |
 | serialnumberimage     | Image          | Bild der Seriennummer                        |    -    |
 | productionnumber      | string         | Produktionsnummer                            |    -    |

@@ -55,8 +55,8 @@
         "damage": {
             "room": "Küche",
             "roomtype": 11,
-            "device": "Kühlschrank",
-            "devicetype": 113,
+            "appliance": "Kühlschrank",
+            "appliancetype": 113,
             "manufacturer": "V-Zug",
             "serialnumber": "1709LZ0529Q8",
             "serialnumberimage": "base64-String",
