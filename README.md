@@ -60,26 +60,23 @@ Fragen:
 - braucht es das? Macht das zum Zeitpunkt der Meldung bereits Sinn?
 - sollen die auf Ebene der Schadensmeldung stehen?
 
-### ID
 
-Aufgrund der Beteiligung diverser Partner bei der Schadensmeldung und der Verarbeitung von Reparaturaufträgen ist es schwierig mit ID's zu arbeiten. Jedes Unternehmen, jede Software hat andere Anforderungen und nutzt andere Daten. Die Datentypen (Integer, String, UUID, Composite-Keys) sind in jedem Unternehmen anders, die Daten selber sind sehr wahrscheinlich auch abweichend (Geschirrspüler = 24 (Service 7000) oder Geschirrspüler = 16 (DTA-RA)).
 
-Um damit umgehen zu können, sollen ID's von Daten, welche nicht explizit im Standard definiert sind, als Tupel definiert werden.
+### IDs
 
-    <owner, id>
-    als
-    <string, string>
-    als
-    <"ww", "ef0391a4-a9c0-48a5-a289-07bdb1d4026d">
+Da das Datenträger-Austauschformat von verschiedenen Teilnehmern verwendet werde kann, wurde ein System- und Teilnehmeragnostisches Konzept zur Identifikation und Interpretation von Daten geschaffen. Für die Identifikation relevant ist der Sender, respektive der Kontext in dem die Daten erstellt werden werden. Dieser Kontext wird dann beim Empfänger dafür verwendet, die Systemfremden IDs in Eigene zu übersetzen.
 
-Fragen:
+Identifizierte Ressourcen tragen stets eine UUID mit sich, welche eben diese Ressource beim Absender identifiziert. Dabei ist nicht relevant, ob die mitgesendete UUID tatsächlich dem 'internen' Identifikator entspricht (schliesslich kann es sein, dass intern andere Datentypen / andere Datenstrukturen eingesetzt werden), stattdessen kann eine Übersetzung von internen IDs zu externen UUIDs für den Versand von Daten stattfinden. Der Sender eines Dokuments sollte jedoch garantieren, dass für eine identifizierbare Ressource immer die selbe UUID mitgesendet wird, so dass empfangende Systeme eine automatisch lernende Übersetzung aufbauen können.
 
-- wer ist der "owner"? Software, Software-Hersteller, Benutzer (Verwaltung)
-- sind akzeptierte "owner" in einer Liste offiziell geführt?
-- wie werden "owner" angegeben? Nummer, Key, Namespace (ch.wwimmo)
-- welcher Typ hat "id"? String, Integer, UUID, any?
-- braucht es evtl ein Tripel <software, owner, id>?
-- Software und Owner einmalig pro Dokument definieren, der Rest ist in diesem Kontext
+In jedem zu versendenden / zu empfangenden Dokument ist ein Namespace enthalten. Dieser Namespace umfasst den Urheber der Daten (owner), und die Applikation aus welcher die Daten versendet wurden. Ein Namespace könnte folgendermassen aussehen:
+
+``ch.service7000.api``
+
+Visualisierung eines beispielhaften ID-Resolving Ablaufs
+
+![image-20210705134338026](README.assets/image-20210705134338026.png)
+
+
 
 ### EGID/EWID
 

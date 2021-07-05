@@ -3,6 +3,7 @@
     {
         "version": "0.0.1",
         "id": "b100b480-96f8-4dc5-ac13-3d1187d70a7c",
+        "namespace": "ch.wwimmo.api",
         "notificationdate": "2020-07-30T09:00:00"
         "location": {
             "realestateid": "83bc25e5-9518-4245-adf0-be9b6bb3d427",
