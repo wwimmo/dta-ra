@@ -40,29 +40,7 @@ Mögliche Funktionen:
 - Validierung
 - Bilder für Base64 de- und encodieren
 
-## Offene Fragen
-
-Aktuell sind noch einige Fragen offen.
-
-### Liste der Hersteller (manufacturer)
-
-Sollen die Hersteller analog der Gerätetypen und Raumtypen auch aufgelistet werden?
--> Service 7000 lieferte Liste
--> die Liste der Hersteller ist sehr umfangreich und schwer zu verwalten
--> Soll anstelle einer definierten Liste mit Firmen-eigenen Listen gearbeitet werden? Dies könnte durch das neue ID-Konzept einfach ermöglicht werden.
-
-### Wunsch-Termine für Reparatur
-
-Die Wunschtermine für eine Reparatur können analog zur Reachability (Erreichbarkeit) angegeben werden.
-
-Fragen:
-
-- braucht es das? Macht das zum Zeitpunkt der Meldung bereits Sinn?
-- sollen die auf Ebene der Schadensmeldung stehen?
-
-
-
-### IDs
+## ID-System
 
 Da das Datenträger-Austauschformat von verschiedenen Teilnehmern verwendet werde kann, wurde ein System- und Teilnehmeragnostisches Konzept zur Identifikation und Interpretation von Daten geschaffen. Für die Identifikation relevant ist der Sender, respektive der Kontext in dem die Daten erstellt werden werden. Dieser Kontext wird dann beim Empfänger dafür verwendet, die Systemfremden IDs in Eigene zu übersetzen.
 
@@ -70,31 +48,15 @@ Identifizierte Ressourcen tragen stets eine UUID mit sich, welche eben diese Res
 
 In jedem zu versendenden / zu empfangenden Dokument ist ein Namespace enthalten. Dieser Namespace umfasst den Urheber der Daten (owner), und die Applikation aus welcher die Daten versendet wurden. Ein Namespace könnte folgendermassen aussehen:
 
-``ch.service7000.api``
+`ch.service7000.api`
 
 Visualisierung eines beispielhaften ID-Resolving Ablaufs
 
 ![image-20210705134338026](README.assets/image-20210705134338026.png)
 
-
-
-### EGID/EWID
-
-Mit dem Registerharmonisierungsgesetzes und der Drittmeldepflicht müsste eigentlich jeder Gebäude eine EGID und jede Wohnung eine EWID haben. Dies ergibt eine schweizweit eindeutige Identifikation der Wohnung.
-
-Diese Identifikatoren wären einfacher untereinander auszutauschen. Sollten diese in die [Location](/entities/location.md)
-
-<https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/minimaler-inhalt-einwohnerregister/egid-ewid.html>
-
-### DSG
-
-Personendaten werden von verschiedenen Parteien ausgetauscht. Wie betrifft dies das Datenschutzgesetz?
-
-### Format und Validierung
-
-XML oder JSON? XML kann mittels XSD einfach validiert werden. XML kann auch optimal als Datei ausgetauscht werden.
-
 ## Stand und Feedback
+
+Aktuell sind noch einige Fragen [offen](https://github.com/wwimmo/dta-ra/issues).
 
 Dieses Format befindet sich noch in Entwicklung und kann noch grösseren Änderungen unterliegen. Feedback ist sehr erwünscht, da es klares Ziel ist, eine möglichst hohe Verbreitung dieses Formats zu erzielen.
 
