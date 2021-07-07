@@ -6,6 +6,7 @@ Die folgende Entität erläutert den Aufbau eines Reparaturauftrags.
 | -------------------- | --------------------------------- | ------------------------------------------------ | :-----: |
 | version              | string                            | Version der Schnittstelle, z.B. "0.1" oder "1.1" |    x    |
 | id                   | uuid                              | ID der Meldung                                   |    x    |
+| namespace            | string                            | Verwendung wie unter README#ID beschrieben       |    x    |
 | state                | integer (enum)                    | Status des Reparaturauftrags                     |    x    |
 | lastchange           | datetime                          | Letzte Änderung                                  |    x    |
 | contractorperson     | [Person](/entities/person.md)     | Handwerker (Auftragsnehmer)                      |    x    |

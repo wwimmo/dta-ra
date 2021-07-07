@@ -6,6 +6,7 @@ Die folgende Entität erläutert den Aufbau einer Schadensmeldung.
 | ----------------- | --------------------------------- | ------------------------------------------------ | :-----: |
 | version           | string                            | Version der Schnittstelle, z.B. "0.1" oder "1.1" |    x    |
 | id                | uuid                              | ID der Meldung                                   |    x    |
+| namespace         | string                            | Verwendung wie unter README#ID beschrieben       |    x    |
 | notificationdate  | datetime                          | Zeitpunkt der Schadensmeldung                    |    x    |
 | location          | [Location](/entities/location.md) |                                                  |    x    |
 | damage            | [Damage](/entities/damage.md)     |                                                  |    x    |
