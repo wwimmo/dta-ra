@@ -4,7 +4,7 @@ Die folgende Entität wird für die [Schadensmeldung](damagenotification.md) und
 
 | Attribut         | Typ            | Beschreibung                                 | Pflicht |
 | ---------------- | -------------- | -------------------------------------------- | :-----: |
-| personid         | uuid           | ID der Person                                |    x    |
+| personid         | uuid           | ID der Person                                |    -    |
 | legal            | boolean        | Juristische Person                           |    x    |
 | salutation       | integer (enum) | [Anrede](types/salutationtypes.md)           |    x    |
 | name1            | string         | Vorname/Zeile 1                              |    x    |
