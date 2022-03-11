@@ -1,6 +1,6 @@
 # Raumtypen
 
-## Liste (draft)
+## Liste
 
 | Nummer | Bezeichnung      |
 | ------ | ---------------- |
