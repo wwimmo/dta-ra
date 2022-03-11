@@ -4,7 +4,7 @@
 
 | Kategorie       | Nummer | Gerätetyp              |
 | --------------- | ------ | ---------------------- |
-| Undefiniert     | 1      | Undefiniert            |
+|                 | 1      | undefiniert            |
 | Weisswaren      | 110    | Kühlschrank            |
 |                 | 111    | Tiefkühler             |
 |                 | 112    | Geschirrspüler         |
