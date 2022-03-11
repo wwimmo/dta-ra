@@ -96,5 +96,5 @@
 |                 | 816    | Schalter, Steckdosen  |
 |                 | 817    | Heizung               |  
 |                 | 818    | Anderes               | 
-| Anderer Ort     | 900    | Briefkasten           |
-|                 | 918    | Anderes               | 
+| Anderer Ort     | 2000   | Briefkasten           |
+|                 | 2018   | Anderes               | 
