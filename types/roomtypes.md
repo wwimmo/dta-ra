@@ -4,15 +4,15 @@
 
 | Nummer | Bezeichnung     |
 | ------ | --------------- |
-| 1      | Diverse/Andere  |
-| 2      | Küche           |
-| 3      | Bad/WC          |
-| 4      | Korridor        |
-| 5      | Zimmer          |
-| 6      | Wohnzimmer      |
-| 7      | Balkon/Terrasse |
-| 8      | Keller          |
-| 9      | Estrich         |
-| 10     | Reduit          |
-| 11     | Waschküche      |
-| ..     | ...             |
+| 0      | Diverse/Andere  |
+| 1      | Küche           |
+| 2      | Bad/WC          |
+| 3      | Korridor        |
+| 4      | Zimmer          |
+| 5      | Reduit          |
+| 6      | Balkon/Terrasse |
+| 7      | Treppenhaus     |
+| 8      | Waschküche      |
+| 9      | Keller          |
+| 10     | Estrich         |
+
