@@ -4,8 +4,8 @@
 
 | Kategorie       | Nummer | Gerätetyp              |
 | --------------- | ------ | ---------------------- |
-| Weisswaren      | 1      | Anderes                |
-|                 | 110    | Kühlschrank            |
+| Undefiniert     | 1      | Undefiniert            |
+| Weisswaren      | 110    | Kühlschrank            |
 |                 | 111    | Tiefkühler             |
 |                 | 112    | Geschirrspüler         |
 |                 | 113    | Dampfabzug             |
@@ -16,6 +16,6 @@
 |                 | 130    | Waschmaschine          |
 |                 | 131    | Wäschetrockner         |
 |                 | 132    | Secomat                | 
-| Anderes         | 200    | Cardsystem, Münzzähler | 
-|                 | 300    | Heizung                |  
-|                 | ...    | ...                    |
+|                 | 133    | Cardsystem, Münzzähler | 
+| Sanitär         | 200    | ...                    |  
+| ...             | ...    | ...                    |
