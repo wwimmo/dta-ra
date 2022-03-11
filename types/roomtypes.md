@@ -14,5 +14,5 @@
 | 8      | Waschküche       |
 | 9      | Keller           |
 | 10     | Estrich          |
-| 20     | Andere           |
+| 20     | Anderer Ort      |
 
