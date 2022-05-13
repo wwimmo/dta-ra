@@ -65,6 +65,18 @@
             "mobile": null,
             "phoneprivate": null,
             "phonebusiness": "044 762 23 23",
+            "reachability": [
+                {
+                    "date": "2020-07-30T09:00:00",
+                    "from": "08:00:00",
+                    "to": "10:00:00"
+                },
+                {
+                    "date": "2020-07-30T09:00:00",
+                    "from": "10:00:00",
+                    "to": "12:00:00"
+                }
+            ],
             "customattributes": null
         },
         "sendingpersontype": 1,
@@ -72,18 +84,6 @@
         "contactpersontype": null,
         "customattributes": {
                 "id-s7000": "K1234-6"
-        },
-        "reachability": [
-			{
-                "date": "2020-07-30T09:00:00",
-				"from": "08:00:00",
-				"to": "10:00:00"
-			},
-			{
-                "date": "2020-07-30T09:00:00",
-				"from": "10:00:00",
-				"to": "12:00:00"
-			}
-		]
+        }
     }
 
