@@ -4,7 +4,7 @@ Die folgende Entität erläutert den Aufbau eines Reparaturauftrags.
 
 | Attribut             | Typ                               | Beschreibung                                     | Pflicht |
 | -------------------- | --------------------------------- | ------------------------------------------------ | :-----: |
-| version              | string                            | Version der Schnittstelle, z.B. "0.1" oder "1.1" |    x    |
+| version              | string                            | Version der Schnittstelle, z.B. "1.0.0"          |    x    |
 | id                   | uuid                              | ID der Meldung                                   |    x    |
 | namespace            | string                            | Verwendung wie unter README#ID beschrieben       |    x    |
 | state                | integer (enum)                    | Status des Reparaturauftrags                     |    x    |
@@ -19,7 +19,7 @@ Die folgende Entität erläutert den Aufbau eines Reparaturauftrags.
 | clientpersontype     | integer (enum)                    | [Persontypes](/types/persontypes.md)             |    x    |
 | contactperson        | [Person](/entities/person.md)     |                                                  |    -    |
 | contactpersontype    | integer (enum)                    | [Persontypes](/types/persontypes.md)             |    -    |
-| customattributes     | json Key-Value                    |                                                  |    -    |
+| customattributes     | json Key-Value                    | -                                                |    -    |
 
 ## Beispiel
 

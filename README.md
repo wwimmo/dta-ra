@@ -64,4 +64,4 @@ Feedback und Fragen bitte als Issue in [GitHub](https://github.com/wwimmo/dta-ra
 
 ## Kontakt
 
-W&W Immo Informatik AG, Michael Furrer, mf@wwimmo.ch
+W&W Immo Informatik AG, Remo Welti, rw@wwimmo.ch

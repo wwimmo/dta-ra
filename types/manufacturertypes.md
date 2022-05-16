@@ -6,15 +6,6 @@ Es ist zurzeit noch offen, ob eine Liste mit Herstellern geführt werden soll.
 
 | Nummer | Bezeichnung    |
 | ------ | -------------- |
+| 0      | undefiniert    |
 | 1      | Diverse/Andere |
-| 2      |                |
-| 3      |                |
-| 4      |                |
-| 5      |                |
-| 6      |                |
-| 7      |                |
-| 8      |                |
-| 9      |                |
-| 10     |                |
-| 11     |                |
 | ..     | ...            |

@@ -8,4 +8,5 @@
 | 1      | Bewohner              |
 | 2      | Eigentümer            |
 | 3      | Verwaltung            |
+| 4      | Hauswart              |
 | ..     | ...                   |
